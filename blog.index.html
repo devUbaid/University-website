@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Mohd Ubaid</title>
+    <link rel="stylesheet" href="../Project-3/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.index.html">ABOUT</a></li>
+                    <li><a href="course.index.html">COURSE</a></li>
+                    <li><a href="blog.index.html">BLOG</a></li>
+                    <li><a href="contact.index.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+
+<!-- ----------- blog content -----------  -->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Certificate & Online Programs For 2021</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit eum incidunt, provident nobis quos obcaecati facilis sapiente fugiat animi aliquid maxime dicta magni ipsa excepturi temporibus cupiditate blanditiis non suscipit.Impedit eum incidunt, provident nobis quos obcaecati facilis</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta exercitationem ratione magni eum? A alias ducimus amet consequuntur? Recusandae quam quaerat provident eos nulla exercitationem, est maiores repellendus rem sequi.
+            Veritatis ratione, commodi dolore voluptatem quis maxime mollitia facere molestias maiores quaerat iste saepe sequi corporis, recusandae ad a laboriosam odio dignissimos porro. Harum fuga eaque voluptate animi culpa distinctio.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit eum incidunt, provident nobis quos obcaecati facilis sapiente fugiat animi aliquid maxime dicta magni ipsa excepturi temporibus</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi eos hic sed iusto ipsam neque, praesentium atque, exercitationem molestiae reiciendis nesciunt quaerat earum, architecto dolore numquam sapiente inventore distinctio voluptates.
+            Voluptatum labore reiciendis, voluptatem enim omnis ipsa, natus vitae autem quos, tenetur quo. Veritatis architecto officia enim harum numquam, saepe autem quas molestiae repellat. Aut vero voluptatum tempora facilis fuga?</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum suscipit quae dolores excepturi repellat enim perferendis libero sapiente voluptatum error. Asperiores sit laudantium labore? Impedit, ratione. Cupiditate hic expedita atque?   fugit voluptatem temporibus assumenda incidunt eius eveniet suscipit, mollitia exercitationem itaque repellat eum officiis? Asperiores, qui.</p>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+
+            </div>
+
+
+
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytic</span>
+                <span>25</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>35</span>
+            </div>
+            <div>
+                <span>Auto CAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>10</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>57</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+    <!-- ----------Footer-------- -->
+
+    <section class="footer">
+        <h4>About Us </h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Null iste quasi nesciunt odit cum<br>dolorum sint
+            consequatur expedita voluptas voluptatem.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o "></i> by Mohd Ubaid </p>
+    </section>
+
+
+
+
+
+
+
+    <!-- ----------JavaScript For Toggle Menu---------- -->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
